@@ -1,5 +1,5 @@
 
-export const API_BASE_URL = 'https://dummyjson.com/';
+export const API_BASE_URL = process.env.VUE_APP_API_URL;
 
 async function apiRequest(endpoint, options = {}) {
   const url = `${API_BASE_URL}${endpoint}`;
