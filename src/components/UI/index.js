@@ -1,9 +1,4 @@
-import TodoList from "./TodoList"
-import TodoListItem from "./TodoListItem"
+import TodoList from './TodoList'
+import TodoListItem from './TodoListItem'
 
-
-
-export default [
-    TodoList,
-    TodoListItem,
-];
+export default [TodoList, TodoListItem]
